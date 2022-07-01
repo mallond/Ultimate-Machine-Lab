@@ -17,3 +17,8 @@ List all domains
 ```
 sudo virsh list --all
 ```
+
+Virsh rename domain
+```
+virsh domrename currentname newname
+```
