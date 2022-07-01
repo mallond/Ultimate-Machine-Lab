@@ -55,3 +55,19 @@ sudo virt-install \
   --console pty,target_type=serial -x 'console=ttyS0,115200n8 serial'
   
 ```
+### Virsh Snapshots
+
+List
+```
+sudo virsh snapshot-list name-of-vm
+```
+
+Create
+```
+sudo virsh snapshot-create-as --domain nameOfVM --name nameOfVM_snap --description "snap before patch on 4Feb2018"
+```
+
+Delete
+```
+sudo virsh snapshot-delete --domain nameOfVM --snapshotname nameOfVM_snap
+```
