@@ -8,7 +8,12 @@ KVM Node info
 sudo virsh nodeinfo
 ```
 
-list --os-variant
+List --os-variant
 ```
 osinfo-query os
+```
+
+List all domains
+```
+sudo virsh list --all
 ```
