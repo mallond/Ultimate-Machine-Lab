@@ -6,3 +6,8 @@
 ```
 sudo virsh nodeinfo
 ```
+
+list --os-variant
+```
+osinfo-query os
+```
