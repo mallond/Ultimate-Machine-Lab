@@ -36,6 +36,12 @@ List all domains
 sudo virsh list --all
 ```
 
+Find IP Address of a domain
+```
+sudo virsh list
+sudo virsh domifaddr rhel7
+```
+
 Virsh rename domain
 ```
 virsh domrename currentname newname
