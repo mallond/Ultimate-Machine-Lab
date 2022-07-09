@@ -17,13 +17,14 @@ Connect To Libvirt with Virsh
 ```
 sudo virsh
 ```
+> GOTCHA - Although, virsh may give feedback, for example virsh list --all, without sudo you may not see the whole picture. virsh is a sudo type of tool but does not always tell you that. When in doubt sudo or 'sudo virsh' and run your commands
 
 ## World according to virsh
 > The virtual shell, or virsh , is a flexible command-line utility for managing virtual machines (VMs) controlled by libvirt, which is a toolkit and API to manage virtualization platforms. It's the default management tool for Linux kernel-based virtual machines (KVMs), and it also supports Xen, VMware, and other platforms.
 
 KVM Node info
 ```
-sudo virsh nodeinfo
+virsh nodeinfo
 ```
 
 List --os-variant
@@ -33,13 +34,13 @@ osinfo-query os
 
 List all domains
 ```
-sudo virsh list --all
+virsh list --all
 ```
 
 Find IP Address of a domain
 ```
-sudo virsh list
-sudo virsh domifaddr rhel7
+virsh list
+virsh domifaddr rhel7
 ```
 
 Virsh rename domain
@@ -47,7 +48,7 @@ Virsh rename domain
 virsh domrename currentname newname
 ```
 ```
-sudo virt-install \
+virt-install \
   --name centos7 \
   --description "Test VM with CentOS 7" \
   --ram=1024 \
@@ -65,15 +66,15 @@ sudo virt-install \
 
 List
 ```
-sudo virsh snapshot-list name-of-vm
+virsh snapshot-list name-of-vm
 ```
 
 Create
 ```
-sudo virsh snapshot-create-as --domain nameOfVM --name nameOfVM_snap --description "snap before patch on 4Feb2018"
+virsh snapshot-create-as --domain nameOfVM --name nameOfVM_snap --description "snap before patch on 4Feb2018"
 ```
 
 Delete
 ```
-sudo virsh snapshot-delete --domain nameOfVM --snapshotname nameOfVM_snap
+virsh snapshot-delete --domain nameOfVM --snapshotname nameOfVM_snap
 ```
