@@ -77,7 +77,7 @@ virt-install \
 virt-install \
 --name centos7 \
 --ram 1024 \
---disk path=/home/dmallon/iso-images/centos7.qcow2,size=8 \
+--disk path=/etc/iso-imagescentos7.qcow2,size=8 \
 --vcpus 1 \
 --os-type linux \
 --os-variant centos7 \
