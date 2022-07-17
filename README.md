@@ -5,6 +5,17 @@
 ## World according to libvirtd
 > ibvirt is an open-source API, daemon and management tool for managing platform virtualization. It can be used to manage KVM, Xen, VMware ESXi, QEMU and other virtualization technologies. These APIs are widely used in the orchestration layer of hypervisors in the development of a cloud-based solution.
 
+Install
+
+core
+```
+sudo dnf -y install bridge-utils libvirt virt-install qemu-kvm
+```
+extra
+```
+sudo dnf install libvirt-devel virt-top libguestfs-tools guestfs-toolsd
+```
+
 Start Deamon
 ```
 sudo systemctl status libvirtd
