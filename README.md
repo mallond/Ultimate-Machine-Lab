@@ -50,8 +50,12 @@ virsh list --all
 
 Find IP Address of a domain
 ```
+# outside
 virsh list
 virsh domifaddr rhel7
+
+#inside 
+virsh domifaddr guestname --source agent
 ```
 
 Virsh rename domain
