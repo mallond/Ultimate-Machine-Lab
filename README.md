@@ -81,7 +81,7 @@ virt-install \
 virt-install \
 --name cnt07-001 \
 --ram 1024 \
---disk path=/etc/iso-imagescentos7.qcow2,size=8 \
+--disk path=/etc/iso-images/cnt07-001.qcow2,size=8 \
 --vcpus 1 \
 --os-type linux \
 --os-variant centos7 \
