@@ -73,7 +73,7 @@ sudo virt-install \
 --os-variant centos7.0 \
 --graphics none \
 --network bridge:virbr0 \
---console pty,target_type=serial -x 'console=ttyS0,115200n8 serial'
+--console pty,target_type=serial -x 'console=ttyS0,115200n8 serial' \
 --location 'http://mirror.centos.org/centos/7/os/x86_64/'
   
 ```
