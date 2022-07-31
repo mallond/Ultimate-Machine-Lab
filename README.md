@@ -51,8 +51,11 @@ virsh list --all
 Find IP Address of a domain
 ```
 # outside
-virsh list
-virsh domifaddr rhel7
+sudo virsh list --all
+virsh domiflist guestname
+arp -e
+
+
 
 #inside 
 virsh domifaddr guestname --source agent
