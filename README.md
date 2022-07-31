@@ -65,8 +65,8 @@ virsh domrename currentname newname
 ```
 mkdir /var/kvm/images
 sudo virt-install \
---name vm001 \
---disk path=/var/kvm/images/vm001.qcow2,size=8 \
+--name vm-001 \
+--disk path=/var/kvm/images/vm-001.qcow2,size=8 \
 --vcpus 1 \
 --ram 1024 \
 --os-type linux \
@@ -75,7 +75,7 @@ sudo virt-install \
 --video qxl \
 --channel spicevmc \
 --console pty,target_type=serial \
---location 'http://ftp.rediris.es/mirror/CentOS/7/os/x86_64/'
+--location 'http://mirror.centos.org/centos/7/os/x86_64/'
   
 ```
 
