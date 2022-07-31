@@ -14,8 +14,8 @@ Hard Disk Description	HDD, 500GB Solid State Hard Drive
 Price: $719.00 US July 29, 2022 Amazon
 
 ## Software 
-Ansible
-MicroK8s - Kubernettes
+Ansible  
+MicroK8s - Kubernettes  
 Fedora 
 KVM: Centos  
 - Snapcraft - App Store from Conical
