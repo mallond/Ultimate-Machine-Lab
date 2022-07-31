@@ -6,7 +6,7 @@
 <img width="460" alt="image" src="https://user-images.githubusercontent.com/993459/182049501-3b351d62-e947-43d9-abcc-8af9580ceeb1.png">
 
 
-### On Premise DevOps Playground
+### At Home DevOps Playground
 Series	GTR5  
 Ram Memory Installed Size	32 GB  
 Operating System Fedora Linux  
