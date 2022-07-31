@@ -8,9 +8,9 @@
 
 ### At Home DevOps Playground
 Series	GTR5  
-Ram Memory Installed Size	32 GB  
+Ram Memory Installed Size	32GB  
 Operating System Fedora Linux  
-CPU Model	Ryzen 9  
+CPU Model	Ryzen 9 4.6GHz
 CPU Manufacturer AMD  
 Human Interface Input	Mouse, Keyboard  
 Hard Disk Description	HDD, 500GB Solid State Hard Drive  
