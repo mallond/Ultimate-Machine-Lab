@@ -65,16 +65,15 @@ virsh domrename currentname newname
 ```
 mkdir /var/kvm/images
 sudo virt-install \
---name vm-001 \
---disk path=/var/kvm/images/vm-001.qcow2,size=8 \
+--name dev-001 \
+--disk path=/var/kvm/images/dev-001.qcow2,size=8 \
 --vcpus 1 \
 --ram 1024 \
 --os-type linux \
 --os-variant centos7.0 \
---graphics spice \
---video qxl \
---channel spicevmc \
---console pty,target_type=serial \
+--graphics none \
+--network bridge:virbr0 \
+--console pty,target_type=serial -x 'console=ttyS0,115200n8 serial'
 --location 'http://mirror.centos.org/centos/7/os/x86_64/'
   
 ```
