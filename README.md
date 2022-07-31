@@ -63,18 +63,19 @@ Virsh rename domain
 virsh domrename currentname newname
 ```
 ```
-virt-install \
-  --name centos7 \
-  --description "Test VM with CentOS 7" \
-  --ram=1024 \
-  --vcpus=2 \
-  --os-type=Linux \
-  --os-variant=centos7.0 \
-  --disk path=/var/lib/libvirt/images/centos7.qcow2,bus=virtio,size=10 \
-  --graphics none \
-  --location /home/dmallon/iso-images/CentOS-7-x86_64-DVD-2009.iso \
-  --network bridge:virbr0 \
-  --console pty,target_type=serial -x 'console=ttyS0,115200n8 serial'
+mkdir /var/kvm/images
+sudo virt-install \
+--name vm001 \
+--disk path=/var/kvm/images/vm001.qcow2,size=8 \
+--vcpus 1 \
+--ram 1024 \
+--os-type linux \
+--os-variant centos7.0 \
+--graphics spice \
+--video qxl \
+--channel spicevmc \
+--console pty,target_type=serial \
+--location 'http://ftp.rediris.es/mirror/CentOS/7/os/x86_64/'
   
 ```
 
