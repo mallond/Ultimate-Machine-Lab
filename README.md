@@ -105,4 +105,10 @@ virsh snapshot-delete --domain nameOfVM --snapshotname nameOfVM_snap
 2. [Post Install](https://docs.docker.com/engine/install/linux-postinstall/)
 > Note: Follow the instructions and do 'reboot' to get the systemctl on boot running
 
+1. -d run as a process
+2. --restart=always on reboot restart
+```
+# example
+docker run --restart=always  -d -p 8080:80 --name web nginx 
+---
 
