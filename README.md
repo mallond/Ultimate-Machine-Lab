@@ -20,7 +20,9 @@ Backup Seagate 2TB USB Drive
 Price: $64.00 US July 29, 2022 Costco 
 
 ### IDE
-Github Codespaces 32GB 8-core
+Visual Studio Code    
+8-core • 16GB RAM • 32GB storage  
+$0.339 per hour US July 29, 2022 Github  
 
 ### CI/CD
 GitHub Actions
