@@ -17,6 +17,8 @@ Price: $719.00 US July 29, 2022 Amazon
 Ansible  
 MicroK8s - Kubernettes  
 Fedora 
+Remote Desktop Connection
+Github Actions
 KVM: Centos 7  
 - Snapcraft - App Store from Conical
 - Flathub - App Store
@@ -27,6 +29,7 @@ KVM: Centos 7
 - Nginx Proxy Manager
 - Dashy 
 - Netdata
+
 
 
 ## kvm-cheats
