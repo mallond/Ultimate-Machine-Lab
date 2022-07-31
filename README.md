@@ -11,6 +11,7 @@ CPU Model	Ryzen 9
 CPU Manufacturer AMD  
 Human Interface Input	Mouse, Keyboard  
 Hard Disk Description	HDD, 500GB Solid State Hard Drive  
+Price: $719.00 US July 29, 2022 Amazon
 
 ## kvm-cheats
 
