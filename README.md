@@ -97,3 +97,12 @@ Delete
 ```
 virsh snapshot-delete --domain nameOfVM --snapshotname nameOfVM_snap
 ```
+
+# KVM With Docker is the Real Deail
+
+## Installation per distro
+1. [centos 7](https://docs.docker.com/engine/install/centos/)
+2. [Post Install](https://docs.docker.com/engine/install/linux-postinstall/)
+> Note: Follow the instructions and do 'reboot' to get the systemctl on boot running
+
+
