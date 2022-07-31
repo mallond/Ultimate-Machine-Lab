@@ -1,4 +1,4 @@
-# Home Lab 
+# Baseline Home Lab 
 
 ## The Machine Specs
 
@@ -12,6 +12,22 @@ CPU Manufacturer AMD
 Human Interface Input	Mouse, Keyboard  
 Hard Disk Description	HDD, 500GB Solid State Hard Drive  
 Price: $719.00 US July 29, 2022 Amazon
+
+## Software 
+Ansible
+MicroK8s - Kubernettes
+Fedora 
+KVM: Centos  
+- Snapcraft - App Store from Conical
+- Flathub - App Store
+- Docker
+- Portainer - Docker Portal
+- BMON
+- NMON
+- Nginx Proxy Manager
+- Dashy 
+- Netdata
+
 
 ## kvm-cheats
 
