@@ -1,4 +1,18 @@
-# kvm-cheats
+# Home Lab 
+
+## The Machine Specs
+
+![image](https://user-images.githubusercontent.com/993459/182042922-eea5f3e2-163f-499e-9fb6-48322ca3fc16.png)
+
+Series	GTR5
+Ram Memory Installed Size	32 GB
+Operating System Fedora Linux
+CPU Model	Ryzen 9
+CPU Manufacturer	AMD
+Human Interface Input	Mouse, Keyboard
+Hard Disk Description	HDD, 500GB Solid State Hard Drive
+
+## kvm-cheats
 
 > I am using Fedora on a bare metal machine. KVM install went well! Too easy!
 
