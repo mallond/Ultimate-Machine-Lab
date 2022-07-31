@@ -13,6 +13,9 @@ Human Interface Input	Mouse, Keyboard
 Hard Disk Description	HDD, 500GB Solid State Hard Drive  
 Price: $719.00 US July 29, 2022 Amazon
 
+Backup Seagate 2TB USB Drive 
+Price: $64.00 US July 29, 2022 Costco
+
 ## Software 
 Ansible  
 MicroK8s - Kubernettes  
