@@ -4,6 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/993459/182042922-eea5f3e2-163f-499e-9fb6-48322ca3fc16.png)
 
+### On Premise
 Series	GTR5  
 Ram Memory Installed Size	32 GB  
 Operating System Fedora Linux  
@@ -14,9 +15,13 @@ Hard Disk Description	HDD, 500GB Solid State Hard Drive
 Price: $719.00 US July 29, 2022 Amazon
 
 Backup Seagate 2TB USB Drive   
-Price: $64.00 US July 29, 2022 Costco  
+Price: $64.00 US July 29, 2022 Costco 
 
-## Software 
+### IDE
+Github Codespaces 32GB 8-core
+
+
+### Software 
 Ansible  
 MicroK8s - Kubernettes  
 Fedora 
@@ -33,7 +38,7 @@ KVM: Centos 7
 - Dashy 
 - Netdata
 
-
+---
 
 ## kvm-cheats
 
@@ -134,6 +139,8 @@ Delete
 ```
 virsh snapshot-delete --domain nameOfVM --snapshotname nameOfVM_snap
 ```
+
+---
 
 # KVM With Docker is the Real Deail
 
