@@ -4,7 +4,7 @@
 
 ![image](https://user-images.githubusercontent.com/993459/182042922-eea5f3e2-163f-499e-9fb6-48322ca3fc16.png)
 
-### On Premise
+### On Premise DevOps Playground
 Series	GTR5  
 Ram Memory Installed Size	32 GB  
 Operating System Fedora Linux  
@@ -20,6 +20,8 @@ Price: $64.00 US July 29, 2022 Costco
 ### IDE
 Github Codespaces 32GB 8-core
 
+### CI/CD
+GitHub Actions
 
 ### Software 
 Ansible  
