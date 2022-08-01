@@ -13,7 +13,8 @@ Operating System Fedora Linux
 CPU Model	Ryzen 9 4.6GHz
 CPU Manufacturer AMD  
 Human Interface Input	Mouse, Keyboard  
-Hard Disk Description	HDD, 500GB Solid State Hard Drive  
+Hard Disk Description	HDD, 500GB Solid State Hard Drive 
+Wifi 6.0
 Price: $719.00 US July 29, 2022 Amazon
 
 Backup Seagate 2TB USB Drive   
